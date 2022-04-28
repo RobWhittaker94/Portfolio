@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/127c01f16d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>👨‍💻 - Robert Whittaker</title>
+  </head>
+  <body>
+    <div class="linksSection">
+      <!-- Logo-->
+    </br>
+      
+      <!-- Social Media Links -->
+
+      <div class="media">
+        <ul>
+            <li>
+              <a class="socials" href="https://www.instagram.com/fajabers/" target="_blank" rel="noopener noreferrer"
+                ><i class="fa fa-instagram" aria-hidden="true"></i
+              ></a>
+            </li>
+          <li>
+            <a class="socials" href="https://github.com/RobWhittaker94" target="_blank" rel="noopener noreferrer">
+              <i class="fa fa-github" aria-hidden="true"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+
+      <div id="frontpage" class="frontpage">
+        <!-- <iframe
+          width="400"
+          height="315"
+          src="https://www.youtube.com/embed/gYD625MK-Tk"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe> -->
+        <h1 class="name">Robert Whittaker</h1>
+        <img class="robG" src="rob guitar bAndw.jpg" alt="Rob guitar"/>
+        <a class="border" id="About-Btn">About Me</a>
+        <a class="border" id="Portfolio-Btn">Portfolio</a>
+        <a
+          type="submit"
+          onclick="window.open('Robert Whittaker - CV 2022.pdf')"
+          class="border"
+          id="Resume-Btn"
+        >
+          CV (Download)
+        </a>
+
+        <h2>Projects</h2>
+
+        <a href ="#portfolio0" class="border" id="ImageSearch-Btn">Wordle clone</a>
+
+        <a href ="#portfolio1" class="border" id="LinksPage-Btn">"ShouldIWearMyShortsToday?"</a>
+
+        <a href = "#portfolio2" class="border" id="Pomodoro-Btn">Dice Game</a>
+
+        <a href ="#portfolio3"
+          class="border"
+          id="NumberGame-Btn"
+          onmouseout="this.innerHTML='Matrix Landing Page'"
+        >
+          Matrix Landing Page
+        </a>
+
+        <!------------------------------------------------------------------>
+        <!-- Contact Information -->
+        <!------------------------------------------------------------------>
+        <div id="contactEl">
+          <h2>Let's talk!</h2>
+          
+          <a class="border" href="mailto:rbrwhittaker@yahoo.com">Email</a>
+        </div>
+      </div>
+    </div>
+
+    <section id ="contentArea" class="Content__Area">
+      <section id="about" class="About__Section">
+        <content>
+          <div class="column" id="info-Area">
+            <h1>About Me:</h1>
+            <br />
+            <img className="robTree" src="Rob tree.jpg" alt="Rob Tree" />
+            <br />
+            <p>
+              Hello! My name's Robert Whittaker. I'm a self-taught
+              front-end developer and popular music and technology graduate from University South Wales. I love writing and performing music, producing music videos, recording and editing, and am fascinated by the technicalities and science behind all things audio and visual. This love and extensive time at the computer ultimately led me to my new passion, coding.
+            </p>
+            <br />
+            <p>
+              I've been learning to
+              code in my free time whilst being a Postman during the pandemic and discovered how exciting and full of creative opportunities the world of software engineering is and I am now looking for my first front-end developer position.
+            </p>
+            <br />
+            <p>
+              A dream software engineering achievement would be to develop a radical, unheard-of digital effects pedal that I could plug my guitar into and make epic soundscapes! 🎸
+            </p>
+            <br />
+            <div id="funFacts">
+              <h3>Fun Facts:</h3>
+              <p>
+                🎵 I play the Guitar, Cello and sing
+              </p>
+              <p>🌍 Performed at many concerts and festivals around the UK and toured with an orchestra in Europe!</p>
+              <p>
+                🤘I have a not so guilty pleasure of enjoying prog death metal
+              </p>
+              <p>
+                📽️ I was an extra in 'How I live now' and 'Casualty'
+              </p>
+              <p>🏎️ I love F1 and hope Mercedes fix Ham's car asap</p>
+              <p>🍺 I love a satisfying, slightly warm and flat proper ale!</p>
+            </div>
+            <br />
+            <a id="scrollUp">Scroll Up ☝️</a>
+            <br />
+          </div>
+        </content>
+      </section>
+      <br />
+      <div id="portfolio">
+        <section id="portfolio0" class="Portfolio__El">
+          <content>
+            <div class="column" id="info-Area">
+              <h1>Wordle Clone</h1>
+              <br />
+              <img src="Wordle.png" alt="Image Search React Application" />
+              <br />
+
+              <div id="whatIKnow">
+                <h3>Overview:</h3>
+                <p>
+                  A game where you have 6 attempts to work out a randomly generated word. The tiles containing each letter from your guess flip and change to a colour; orange to signify if the letter exists in the word but in the wrong position, green if it is correct and in the right position.
+                  
+                  I've left the swear words in so you might get one if you're lucky!
+                </p>
+              </div>
+              <br />
+              <aside>
+                <h4>Details:</h4>
+                <p>
+                  JavaScript based with an API call for the random word generator which I then proggrammed to only give 5 letter long words. As the game already exists it was a great opportunity to learn how to convert game logic into code without having to think up the game itself. I used CSS to produce an efficient and clean UI with a pleasing aesthetic.
+                </p>
+              </aside>
+              <br />
+              <ul class="hire__nav">
+                <li>
+                                
+                                  
+                  <a href="https://github.com/RobWhittaker94/Wordle-Clone" target="_blank" rel="noopener noreferrer" 
+                    >View GitHub 🐱</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </content>
+        </section>
+        <br />
+        <section id="portfolio1" class="Portfolio__El">
+          <content>
+            <div class="column" id="info-Area">
+              <h1>"ShouldIWearMyShortsToday?"</h1>
+              <br />
+              <img src="SIWMST.png" alt="Cae Roberts first Solo" />
+              <br />
+
+              <div id="whatIKnow">
+                <h3>Overview:</h3>
+                <p>
+                  A fun React app inspired by a simple geolocation project I was building following a course. The app is to help you decide whether the weather is suitable for you to wear your shorts today as living in the UK I found that sometimes looking out the window wasn't enough. I added a loading screen with a prompt for the user to accept the location request and a placeholder link to amazon.com/shorts until I get a shorts retailer partnership.
+                </p>
+              </div>
+              <br />
+              <aside>
+                <h4>Details:</h4>
+                <p>
+                  Built with React. The app takes your location and cross-checks the time of year with which hemisphere you are living in to produce a results screen. I am currently working on adding various API calls such as an in depth weather/temperature forecast, amount of sun time left and more precise geolocation logic so that people at the north pole won't be advised to wear shorts even if it is the summer.
+                </p>
+              </aside>
+              <br />
+              <ul class="hire__nav">
+                
+                <li>
+                  <a href="https://github.com/RobWhittaker94/ShouldIWearMyShortsToday" target="_blank" rel="noopener noreferrer"
+                    >View GitHub 🐱</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </content>
+        </section>
+        <br />
+        <section id="portfolio2" class="Portfolio__El">
+          <content>
+            <div class="column" id="info-Area">
+              <h1>Dice Game</h1>
+              <br />
+              <img src="Dice-game.png" alt="Pomodoro Website Preview" />
+              <br />
+
+              <div id="whatIKnow">
+                <h3>Overview:</h3>
+                <p>
+                  In this game 2 players race to score 100 points by rolling a dice. The value of each roll is added to the last. Each player takes a gamble on whether they should 'bank' (hold) their current score, ending their turn or continue rolling to see how high they can go. If the dice rolls a 1 then your streak ends and whatever you haven't 'banked' is lost and the dice is passed over to the other player, highlighted by the section changing colour.
+                </p>
+              </div>
+              <br />
+              <aside>
+                <h4>Details:</h4>
+                <p>
+                  The Dice game is a simple DOM manipulation project that utilises game mechanices and user state to change the styling and HTML of the project. It was initially built as a project with a JavaScript course but I enjoyed developing it so much that I decided to carry on with it.
+                </p>
+              </aside>
+              <br />
+              <ul class="hire__nav">
+                <li>
+                  <a href="https://github.com/RobWhittaker94/Dice-Game/tree/main/starter" target="_blank" rel="noopener noreferrer"
+                    >View GitHub 🐱</a>
+                  </li>
+                  <li>
+                    <a href="https://compassionate-bhabha-305abe.netlify.app/" target="_blank" rel="noopener noreferrer"
+                    >Play Here 🎲</a>
+                  </li>
+              </ul>
+            </div>
+          </content>
+        </section>
+        <br />
+        <section id="portfolio3" class="Portfolio__El">
+          <content>
+            <div class="column" id="info-Area">
+              <h1>Matrix Landing Page</h1>
+              <br />
+              <img src="Matrix landing page.png" alt="Robert Whittaker first Solo Project" />
+              <br />
+              <div id="whatIKnow">
+                <h3>Overview:</h3>
+                <p>
+                  After entering the world of coding I couldn't resist giving this a go. I followed a youtube tutorial on how to recreate the famous digital rain and then took it forward as a fun idea for a portfolio landing page background. Including an animated custom terminal display to produce a series of messages. I updated the character set and adjusted the speed and fade-out timers for the rain to make it look more like the imagery from the film.
+                </p>
+              </div>
+              <br />
+              <aside>
+                <h4>Details:</h4>
+                <p>
+                  JavaScript based. I used this project as an opportunity to focus on making my code as efficient and easy to read as possible, avoiding the boilerplate approach, lengthy index.js files and hard-coded style application by linking files to eachother inspired by how React projects are organised.
+                </p>
+              </aside>
+              <br />
+              <ul class="hire__nav">
+                <li>
+                  <a href="https://github.com/RobWhittaker94/Matrix-Landing-Page" target="_blank" rel="noopener noreferrer"
+                    >View GitHub 🐱</a
+                  >
+                  <li>
+                    <a href="https://sage-frangollo-9647a2.netlify.app/" target="_blank" rel="noopener noreferrer"
+                    >View Live 🥄</a>
+                  </li>
+                 
+                </li>
+                <!-- <li>
+                  <a id="scrollUp3">Scroll Up ☝️</a>
+                </li> -->
+              </ul>
+            </div>
+          </content>
+        </section>
+      </div>
+      <br />
+    </section>
+
+    <footer class="footer">
+      <div class="row footer-container">
+        <div class="column">
+          <ul>
+            <li><a id="scrollUp2">Home</a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <ul>
+            <li><a id="footerAbt">About</a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <ul>
+            <li><a id="footerPort">Portfolio</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="column">
+        <!-- <h2>Robert Whittaker</h2> -->
+        <p>07930592148</p>
+        <p>rbrwhittaker@yahoo.com</p>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
